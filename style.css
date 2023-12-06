@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -22,4 +23,33 @@ body {
     left: 50%;
     border-radius: 20px;
     box-shadow: 0 1.4em 3em rgba(20, 16, 39, 0.3);
+}
+
+#meme {
+    display: block;
+    height: 25em;
+    margin: 0 auto 1em auto;
+    max-width: 80%;
+}
+
+#title {
+    font-size: 1em;
+    display: block;
+    margin: 0.5 auto 2em auto;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#meme-btn {
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.8em 2em;
+    border: none;
+    border: 2em;
+    outline: none;
+    background-color: rgb(241, 210, 35);
+    cursor: pointer;
 }
